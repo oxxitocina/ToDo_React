@@ -1,0 +1,106 @@
+body, ul{
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+  
+}
+
+.task{
+  width: 400px;
+  border: 1px solid #bababa;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  
+}
+
+.tasks-checkbox{
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.tasks-checkbox:checked{    
+  background-color: #c4c4c4;
+}
+
+.checkbox-label::before{
+  
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #ffffff;
+}
+
+.task-checkbox-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.todo{
+  width: fit-content;
+  min-height: 600px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.todo-container{
+  padding: 10px;
+}
+
+
+
+.priority{
+  text-align: center;
+  margin: 10px;
+}
+
+.task-input-container{
+  border: 1px solid #bababa;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.task-input{
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+
+
+.add, .delete, .button_Main_style{
+  border: none;
+  background: white;
+  font-size: larger;
+  color: #a495a4;
+  padding-right: 10px;
+}
+
+.add{
+  padding-right: 17px;
+}
+
+.label_Main {
+  display: flex;
+  width: 328px;
+  white-space: pre-wrap;
+}
+
+
